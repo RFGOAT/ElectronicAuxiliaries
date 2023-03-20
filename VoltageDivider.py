@@ -71,7 +71,7 @@ def VoltageDiv():
                             RratioArr = np.append(RratioArr, [pairs], axis=0)
         
         #Printing
-        np.set_printoptions(precision=3, suppress=True, threshold = np.nan)
+        np.set_printoptions(precision=3, suppress=True, threshold = None)
         print('\n****OUTPUT***')
         print('Voltage Ratio Uout/Uin: %2.2f'% Uratio)
         
